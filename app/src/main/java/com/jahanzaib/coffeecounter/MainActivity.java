@@ -17,9 +17,13 @@ public class MainActivity extends AppCompatActivity {
     int quantity;
 
     public void submitOrder(View view) {
+/*
         int numOfCoffee = quantity;
         display(numOfCoffee);
         displayprice(numOfCoffee * 5);
+*/
+        String priceMsg = "Thank u";
+        displayMsg(priceMsg);
     }
     public void display(int numOfCoffee) {
         TextView quantityTextView = (TextView) findViewById(R.id.numOfCoffee);
@@ -37,5 +41,9 @@ public class MainActivity extends AppCompatActivity {
     public void dec(View view){
         quantity = quantity - 1 ;
         display(quantity);
+    }
+    public void  displayMsg(String msg){
+        TextView priceTextView = (TextView) findViewById(R.id.amount);
+        priceTextView.setText(msg);
     }
 }
