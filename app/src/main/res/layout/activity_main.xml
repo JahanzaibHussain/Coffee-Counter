@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jahanzaib.coffeecounter.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/increament"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:text="+"
+            android:layout_marginLeft="10dp"
+            android:onClick="display"
+            />
+        <TextView
+            android:id="@+id/numOfCoffee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/decreament"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:text="-"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: "
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$ 0 "
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:layout_marginLeft="10dp"
+        android:onClick="display"
+        />
+</LinearLayout>
