@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:text="0"
         android:textColor="@android:color/white"
-        android:textSize="30sp"
+         android:textSize="20sp"
         android:layout_margin="10dp"
         />
     <Button
@@ -81,19 +81,5 @@
         android:onClick="submitOrder"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Thanks for Ordering"
-        android:textSize="30sp"
-        android:textColor="@android:color/white"
 
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Your Total amount is : "
-        android:textSize="30sp"
-        android:textColor="@android:color/white"
-        />
 </LinearLayout>

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         display(numOfCoffee);
         displayprice(numOfCoffee * 5);
 */
-        String priceMsg = "Thank u";
+        String priceMsg = "Thanks! your amount is: $" + quantity;
         displayMsg(priceMsg);
     }
     public void display(int numOfCoffee) {
